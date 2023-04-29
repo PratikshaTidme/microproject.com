@@ -1,0 +1,167 @@
+body {
+    background-image: url(image\ 2.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #313131; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cfcfcf; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #949494; 
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    background-image: url(image\ 2.png);
+    height: 100vh;
+    background-size: 100%;
+}
+
+.home_heading {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    color:  white;
+    font-size: 25px;
+    padding-left: 10px;
+
+}
+
+.home_links {
+    text-align: center;
+    top: 58%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+hr {
+    height: 7px;
+    background-color: white;
+    border: none;
+}
+
+.wipro_para {
+    color: white;
+    font-size: 38px;
+    width: 50%;
+    position: absolute;
+    top: 120%;
+    left: 8%;
+}
+
+.comp_a {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+}
+
+.comp_a:hover {
+    color: aqua;
+}
+
+.comp_a:visited {
+    color: white;
+}
+
+.wipro_img {
+    float: right;
+    height: 100vh;
+}
+
+.infosys_para {
+    color: white;
+    font-size: 38px;
+    width: 50%;
+    position: absolute;
+    top: 220%;
+    right: 2%;
+}
+
+.infosys_img {
+    float: left;
+    height: 100vh;
+}
+
+.oracle_para {
+    color: white;
+    font-size: 38px;
+    width: 50%;
+    position: absolute;
+    top: 325%;
+    left: 7%;
+}
+
+.oracle_img {
+    float: right;
+    height: 100vh;
+}
+
+.ibm_para {
+    color: white;
+    font-size: 38px;
+    width: 50%;
+    position: absolute;
+    top: 430%;
+    right: 2%;
+}
+
+.ibm_img {
+    float: left;
+    height: 100vh;
+}
+
+button {
+    background-color: rgb(200, 200, 200);
+    height: 50px;
+    width: 90px;
+    border-radius: 70px;
+    border: none;
+    float: right; 
+    /* position: absolute; */
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border: dotted;
+    border-color: white;
+}
